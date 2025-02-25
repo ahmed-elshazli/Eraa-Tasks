@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Atkinson Hyperlegible Next", serif;
+    
+}
+
+body{
+background-color: #f2f2f2;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+
+.card{
+    background-color: white;
+    width: 60%;
+    height: 400px;
+    margin: 15%;
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.card h2{
+    color: #0F2943;
+    width: 60%;
+}
+
+.card p{
+    width: 60%;
+    padding: 20px;
+    padding-left: 0;
+    font-style: italic;
+}
+
+.card .btn img{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.card .btn{
+    display: flex;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info h3{
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #0F2943;
+}
+
+.info p{
+    padding-left: 20px;
+    padding-top: 0;
+    color: gray;
+}
+.btn{
+   width: 40%;
+}
+.card2{
+    width: 40%;
+    margin-left: 520px;
+    margin-top: -280px;
+}
+.card2 img{
+    width: 100%;
+    border-radius: 15px;
+}
